@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Repaso;
+package Proyecto;
 
 import java.awt.Color;
 import java.awt.Dimension;
 
 /**
  *
- * @author Macarena
+ * @author Ivan
  */
 public class GUI_Calculadora extends javax.swing.JFrame {
 
