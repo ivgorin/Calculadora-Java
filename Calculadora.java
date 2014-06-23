@@ -8,12 +8,12 @@ package Repaso;
 import java.text.NumberFormat;
 
 /**
- *Clase calculadora que implementa los métodos necesarios para hacer operaciones básicas
+ * Clase calculadora que implementa los métodos necesarios para hacer
+ * operaciones básicas
  *
- * 
+ *
  * @author Ivan
  */
-
 public class Calculadora {
 
     public static double sumar(double a, double b) {
@@ -36,6 +36,14 @@ public class Calculadora {
         NumberFormat formateador = NumberFormat.getInstance();
         formateador.setMaximumFractionDigits(3);
         return formateador.format(a / b);
+    }
+
+    public static double potencia(double base, double exponente) {
+        double resultado = 1;
+        for (int i = 1; i <= exponente; i++) {
+            resultado *= base;
+        }
+        return resultado;
     }
 
 }
