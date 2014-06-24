@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 
-=======
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
->>>>>>> origin/master
-package Proyecto;
+package Repaso;
 
 import java.text.NumberFormat;
 
@@ -48,6 +40,10 @@ public class Calculadora {
             resultado *= base;
         }
         return resultado;
+    }
+    
+    public static double raíz(double radicando,double radical){
+        return Math.pow(radicando, 1/radical);
     }
 
 }
